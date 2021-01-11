@@ -1,0 +1,9 @@
+Add library
+1.File >> Project Structure >> Libraries >> + >> Java
+2.Select javafx-sdk-11.0.2 >> lib >> OK
+
+Edit configurations
+Main arrow key down >> Edit configurations >> Modify options 
+>> Add VM Options 
+>> Paste: --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml
+>> Apply & OK

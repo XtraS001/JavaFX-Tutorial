@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--It is default setting-->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.Controller">
+
+    <!--//Binding using FXML
+    <Label text="I love bacon" fx:id="firstLabel"/>
+    <Label text="${firstLabel.text}"/>
+-->
+    <fx:define>
+        <ToggleGroup fx:id="toggleGroup" /> <!--make smtg to object to make it reusable-->
+    </fx:define>
+
+    <Label text = "Difficulty" />
+
+    <RadioButton text="Easy" toggleGroup="$toggleGroup" />
+    <RadioButton text="Medium" toggleGroup="$toggleGroup" />
+    <RadioButton text="Hard" toggleGroup="$toggleGroup" />
+
+</VBox>
+
+<!-- $ is use to reference something   -->
