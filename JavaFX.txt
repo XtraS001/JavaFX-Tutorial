@@ -1,0 +1,9 @@
+JavaFX
+
+Whole window call Stage
+
+Content call scene
+-put buttons etc.
+
+Create Layout
+
