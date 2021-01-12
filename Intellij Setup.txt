@@ -1,0 +1,23 @@
+Intellij Idea setup
+
+Project Structure
+-Add SDKs
+
+Edit Configurations
+-Main class name
+-Java verison
+-C:\Users\user\javafx-sdk-11.0.2\lib
+
+add VM Options
+--module-path
+C:\Users\user\javafx-sdk-11.0.2\lib
+--add-modules=javafx.controls
+--add-modules=javafx.fxml
+
+Java SDK
+C:\Program Files\Java
+JavaFX
+C:\Users\user\javafx-sdk-11.0.2\lib
+
+
+

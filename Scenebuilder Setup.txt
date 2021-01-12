@@ -1,0 +1,6 @@
+File >> Settings >> Languages & Framewords >> JavaFX
+>> ADD PATH TO SCENEBUILDER : C:\Program Files\SceneBuilder\SceneBuilder.exe
+>> ok
+
+>>Right click fxml file >> Open in SceneBuilder
+
